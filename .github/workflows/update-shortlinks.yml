@@ -1,6 +1,10 @@
 name: Update Shortlinks
 
 on:
+  schedule:
+    # Every 30 minutes
+    # See: https://crontab.guru/#*/30_*_*_*_*
+    - cron: '*/30 * * * *'
   push:
     branches: [main]
     paths:
