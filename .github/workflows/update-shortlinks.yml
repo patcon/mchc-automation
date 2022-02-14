@@ -2,9 +2,9 @@ name: Update Shortlinks
 
 on:
   schedule:
-    # Every 30 minutes
-    # See: https://crontab.guru/#*/30_*_*_*_*
-    - cron: '*/30 * * * *'
+    # Every 30 minutes, offset slightly.
+    # See: https://crontab.guru/#7,37_*_*_*_*
+    - cron: '7,37 * * * *'
   push:
     branches: [main]
     paths:
