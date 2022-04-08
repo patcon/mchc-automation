@@ -2,7 +2,7 @@
 
 This code repository contains helpful scripts for automating some tech tasks.
 
-These run automatically.
+These run automatically. 
 
 | Workflow | Status |
 |----------|--------|
